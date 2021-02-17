@@ -23,10 +23,11 @@
 
     <ImageButton
         android:id="@+id/bt_camara"
-        android:layout_width="278dp"
-        android:layout_height="355dp"
+        android:layout_width="212dp"
+        android:layout_height="175dp"
         android:layout_marginBottom="116dp"
         android:onClick="EnciendeApaga"
+        android:scaleType="fitCenter"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.578"
